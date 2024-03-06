@@ -5,3 +5,8 @@ console.log(` %c
 `, 'color:red;font-size:20px;')
 
 // Section has stuff from the tutorial
+
+let lastName = 'Williams';
+let oldLastName = lastName;
+lastName = 'Davis';
+console.log(lastName, oldLastName);
